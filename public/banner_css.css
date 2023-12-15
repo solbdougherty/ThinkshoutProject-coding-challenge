@@ -1,0 +1,38 @@
+.tst-banner {
+    background-color: #D0453E;
+    color: #FFF;
+}
+
+.tst-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tst-content {
+    order: 1;
+    flex-grow: 4;
+    margin-left: 5%;
+}
+
+.tst-close {
+    order: 2;
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.tst-banner p:nth-child(1) {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.tst-banner p:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
+.tst-close p {
+    height: 25px;
+    width: 25px;
+}
